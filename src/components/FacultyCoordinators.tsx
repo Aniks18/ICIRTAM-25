@@ -11,14 +11,13 @@ const FacultyCoordinators = () => {
         { name: "Dr. S. Prakash", role: "Assistant Professor" }
       ]
     }
-   
   ]
  
   return (
     <section className="py-20 bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-blue-900 text-center mb-12">Conference Coordinators</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="flex justify-center"> {/* Centering the card */}
           {coordinators.map((section, index) => (
             <div key={index} 
               className="group bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl 
@@ -45,6 +44,6 @@ const FacultyCoordinators = () => {
       </div>
     </section>
   )
- }
- 
- export default FacultyCoordinators
+}
+
+export default FacultyCoordinators
