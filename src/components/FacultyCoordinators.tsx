@@ -3,12 +3,12 @@ const FacultyCoordinators = () => {
     {
       title: "FACULTY COORDINATORS", 
       members: [
+        { name: "Dr. S. Ravikumar", role: "Assistant Professor" },
         { name: "Dr. S. Udayakumar", role: "Associate Professor" },
         { name: "Dr. K. Subramanian", role: "Associate Professor" },
         { name: "Dr. T. Sivakumar", role: "Associate Professor" },
         { name: "Dr. A. Dineshkumar", role: "Assistant Professor" },
-        { name: "Dr. S. Prakash", role: "Assistant Professor" },
-        { name: "Dr. S. Ravikumar", role: "Assistant Professor" }
+        { name: "Dr. S. Prakash", role: "Assistant Professor" }
       ]
     },
     {
