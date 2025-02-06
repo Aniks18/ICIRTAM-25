@@ -23,7 +23,7 @@ const Navbar = () => {
       }`}>
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between h-20 items-center">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 md:ml-[-10px]">
               <Link href="/" className="relative w-52 h-16 overflow-hidden rounded-md shadow-lg transition-transform hover:scale-105">
                 <Image src={srmLogo} alt="SRM Logo" fill className="object-contain" sizes="208px" priority />
               </Link>
