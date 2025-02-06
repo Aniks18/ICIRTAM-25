@@ -10,7 +10,7 @@ const FacultyCoordinators = () => {
         { name: "Dr. A. Dineshkumar", role: "Assistant Professor" },
         { name: "Dr. S. Prakash", role: "Assistant Professor" }
       ]
-    },
+    }
    
   ]
  
