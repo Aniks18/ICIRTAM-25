@@ -11,14 +11,7 @@ const FacultyCoordinators = () => {
         { name: "Dr. S. Prakash", role: "Assistant Professor" }
       ]
     },
-    {
-      title: "STUDENT COORDINATORS",
-      members: [
-        { name: "Anand. T", role: "II Year, M.Sc Mathematics" },
-        { name: "Bose. S", role: "II Year, M.Sc Mathematics" },
-        { name: "Gokul. J", role: "II Year, M.Sc Mathematics" }
-      ]
-    }
+   
   ]
  
   return (
