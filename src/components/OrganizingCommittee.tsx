@@ -33,7 +33,7 @@ const OrganizingCommittee = () => {
       {
         title: "COORDINATORS",
         members: [
-          { name: "Dr. S. Thalapathiraj", role: "Assistant Professor (Sr.G)" },
+          { name: "Dr. S. Thalapathiraj", role: "Assistant Professor (Sr.C)" },
           { name: "Dr. J. Ravikumar", role: "Assistant Professor" }
         ]
       },
@@ -48,7 +48,11 @@ const OrganizingCommittee = () => {
         title: "ORGANIZING COMMITTEE",
         members: [
           { name: "Dr. N. Rameshan", role: "Assistant Professor (Sr.G)" },
-          { name: "Dr. R. Mani", role: "Assistant Professor" }
+          { name: "Dr. R. Manimaran", role: "Assistant Professor" },
+          { name: "Dr. S. Muthukumaran", role: "Assistant Professor" },
+          { name: "Dr. V. Sudha", role: "Assistant Professor (Sr.C)" },
+          { name: "Dr. C. S. Varun Bose", role: "Assistant Professor" },
+          { name: "Dr. E. Ragupathi", role: "Assistant Professor" }
         ]
       }
     ]
@@ -85,3 +89,4 @@ const OrganizingCommittee = () => {
   }
   
   export default OrganizingCommittee
+
