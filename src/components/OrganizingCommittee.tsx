@@ -6,14 +6,16 @@ const OrganizingCommittee = () => {
         members: [
           { name: "Dr. T. R. Paarivendhar", role: "Chancellor, SRMIST" },
           { name: "Dr. Ravi Pachamuthu", role: "Chairman, SRM Group" },
-          { name: "Dr. P. Sathyanarayanan", role: "Pro-Chancellor (Academics), SRMIST" }
+          { name: "Dr. P. Sathyanarayanan", role: "Pro-Chancellor (Academics), SRMIST" },
+          { name: "Ms. Harini Ravi", role: "Director, Institutional Development, SRM Group" }
         ]
       },
       {
         title: "PATRONS",
         members: [
           { name: "Dr. C. Muthamizhchelvan", role: "Vice Chancellor, SRMIST" },
-          { name: "Dr. S. Ponnusamy", role: "Registrar, SRMIST" }
+          { name: "Dr. S. Ponnusamy", role: "Registrar, SRMIST" },
+          { name: "Dr. S. Ramachandran", role: "Director (Academics), SRM Group" }
         ]
       },
       {
@@ -21,20 +23,32 @@ const OrganizingCommittee = () => {
         members: [{ name: "Dr. C. V. Jayakumar", role: "Dean (FET), SRMIST, Vadapalani" }]
       },
       {
+        title: "CONFERENCE CO-CHAIRMAN",
+        members: [{ name: "Dr. C. Gomathy", role: "VP (Academics & Placements), SRMIST, Vadapalani" }]
+      },
+      {
         title: "CONVENOR",
         members: [{ name: "Dr. C. Rajesh", role: "Head, Department of Mathematics" }]
       },
       {
-        title: "ORGANIZING SECRETARY",
-        members: [{ name: "Dr. S. Udayakumar", role: "Associate Professor" }]
+        title: "COORDINATORS",
+        members: [
+          { name: "Dr. S. Thalapathiraj", role: "Assistant Professor (Sr.G)" },
+          { name: "Dr. J. Ravikumar", role: "Assistant Professor" }
+        ]
+      },
+      {
+        title: "TREASURERS & PUBLICATION COORDINATORS",
+        members: [
+          { name: "Dr. R. Venkatraman", role: "Assistant Professor" },
+          { name: "Mr. J. Balamurugan", role: "Assistant Professor" }
+        ]
       },
       {
         title: "ORGANIZING COMMITTEE",
         members: [
-          { name: "Dr. K. Subramanian", role: "Associate Professor" },
-          { name: "Dr. T. Sivakumar", role: "Associate Professor" },
-          { name: "Dr. S. Prakash", role: "Assistant Professor" },
-          { name: "Dr. A. Dinesh Kumar", role: "Assistant Professor" }
+          { name: "Dr. N. Rameshan", role: "Assistant Professor (Sr.G)" },
+          { name: "Dr. R. Mani", role: "Assistant Professor" }
         ]
       }
     ]
